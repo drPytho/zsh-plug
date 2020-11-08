@@ -1,7 +1,8 @@
 
 # Start tmux if not already started
 if [ "$TMUX" = "" ]; then 
-    if [[ `which tmux &>/dev/null && $?` != 0 ]]; then
+    if command -v tmux &> /dev/null
+    then
         tmux;
         exit
     fi

@@ -4,7 +4,6 @@
 # Good to have
 alias week="date +%V"
 alias reload="exec $SHELL -l"
-alias tmux="TERM=screen-256color-bce tmux"
 alias v="nvim"
 
 function f() {
