@@ -11,5 +11,5 @@ source
 
 ```
 yay -S antibody 
-antibody bundle 'drpytho/zsh-plug'
+source <(antibody bundle 'drpytho/zsh-plug')
 ```
