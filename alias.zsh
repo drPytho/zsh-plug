@@ -7,7 +7,6 @@ alias reload="exec $SHELL -l"
 alias v="nvim"
 
 function f() {
-
     v `fd --type f -E vendor | fzf -i`
 }
 
@@ -40,3 +39,9 @@ alias http=$GOPATH/bin/bat
 alias bat='/usr/bin/bat'
 
 alias open=xdg-open
+
+# Good to have
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."

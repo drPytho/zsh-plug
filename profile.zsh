@@ -3,8 +3,13 @@ function atp() {
     export PATH="$1:$PATH"
 }
 
-# Theme
-ZSH_THEME="dst"
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+export XDG_CONFIG_HOME=$HOME/.config
+
+export TERM="xterm-256color"
+export EDITOR="nvim"
+export COMPLETION_WAITING_DOTS="true"
 
 # Golang
 export GOPATH=$HOME/workspace/golang
@@ -17,4 +22,6 @@ atp $GOPATH/bin
 
 # Personal bins
 atp $HOME/.local/bin
+atp $HOME/.local/npm/bin
+atp $HOME/.local/lib/google-cloud-sdk/bin
 
