@@ -3,6 +3,7 @@ plugins+=(
     'drpytho/zsh-plug'
     'zsh-users/zsh-syntax-highlighting'
     'zsh-users/zsh-history-substring-search'
+    'reobin/typewritten'
 )
 
 ANTIBODY_FILE="$HOME/.zsh_plug"
