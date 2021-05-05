@@ -35,7 +35,6 @@ alias gc="git commit -m"
 alias gs="git status"
 alias gd="git diff"
 
-alias http=$GOPATH/bin/bat
 alias bat='/usr/bin/bat'
 
 alias open=xdg-open
